@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url(https://www.stanser.com/wp-content/uploads/2019/12/5018.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+   
+    color: $color_icono; 
+    
+}
+
+.fondo_texto{
+    
+    background-color: $fondo_nav_footer;
+    
+}
+.card{
+
+    &:hover{
+        transform: scale(1.05); 
+    }
+}

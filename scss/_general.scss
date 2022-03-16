@@ -13,16 +13,8 @@ body{
     flex-direction: column;
 }
 
-i{
-   
-    color: $color_icono; 
-    
-}
-
-.fondo_texto{
-    
-    background-color: $fondo_nav_footer;
-    
+.fondo_texto{    
+    background-color: $fondo_nav_footer;     
 }
 .card{
 

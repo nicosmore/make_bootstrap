@@ -1,2 +1,22 @@
-$color_icono: white;
-$fondo_nav_footer: rgba(12, 12, 12, 0.753);
+$fondo_nav_footer: rgba(34, 34, 34, 0.753);
+
+$iconosredes:(
+    instagram:rgb(221,42,123),
+    facebook: rgb(59,89,152),
+    whatsapp:rgb(0, 187, 45),
+    twitter:rgb(0,172,238),
+);
+
+@each $redes, $color in $iconosredes{
+    .bi-#{$redes}{
+        color: $color;
+    }    
+}
+
+@mixin estilo ($padding, $bg,){
+    padding: $padding;
+    background-color: $bg;        
+}
+.logo_texto{
+    @include estilo(5px, rgba(0, 128, 0, 0.356) )
+}

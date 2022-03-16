@@ -3,6 +3,8 @@ footer{
     bottom: 0;
     margin-top: auto;
 
+    @extend .fondo_texto;
+
     div{
         
         a{

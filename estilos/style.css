@@ -1,3 +1,19 @@
+.bi-instagram {
+  color: #dd2a7b; }
+
+.bi-facebook {
+  color: #3b5998; }
+
+.bi-whatsapp {
+  color: #00bb2d; }
+
+.bi-twitter {
+  color: #00acee; }
+
+.logo_texto {
+  padding: 5px;
+  background-color: rgba(0, 128, 0, 0.356); }
+
 * {
   padding: 0;
   margin: 0; }
@@ -12,11 +28,8 @@ body {
   display: flex;
   flex-direction: column; }
 
-i {
-  color: white; }
-
-.fondo_texto {
-  background-color: rgba(12, 12, 12, 0.753); }
+.fondo_texto, footer {
+  background-color: rgba(34, 34, 34, 0.753); }
 
 .card:hover {
   transform: scale(1.05); }

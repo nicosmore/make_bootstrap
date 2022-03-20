@@ -12,7 +12,7 @@
 
 .logo_texto {
   padding: 5px;
-  background-color: rgba(0, 128, 0, 0.356); }
+  background-color: #19875485; }
 
 * {
   padding: 0;
@@ -29,10 +29,28 @@ body {
   flex-direction: column; }
 
 .fondo_texto, footer {
-  background-color: rgba(34, 34, 34, 0.753); }
+  background-color: rgba(2, 2, 2, 0.753); }
+
+#navegador_index {
+  border-bottom: 2px solid #ffc107; }
+
+.carousel-item {
+  height: 30rem;
+  background-color: black;
+  background-position: center;
+  background-size: cover; }
 
 .card:hover {
-  transform: scale(1.05); }
+  transform: scale(1.01); }
+
+#galeria div {
+  margin: 0 !important;
+  display: flex;
+  justify-content: center; }
+  #galeria div img {
+    width: 100%; }
+    #galeria div img:hover {
+      border: 5px solid #0dcaf0be; }
 
 footer {
   align-items: center;

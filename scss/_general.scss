@@ -16,9 +16,38 @@ body{
 .fondo_texto{    
     background-color: $fondo_nav_footer;     
 }
+
+#navegador_index{
+    border-bottom: 2px solid #ffc107;
+}
+.carousel-item{
+    height: 30rem;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
 .card{
 
     &:hover{
-        transform: scale(1.05); 
+        transform: scale(1.01); 
+    }
+}
+
+#galeria{
+    div{
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+
+        img{            
+            width: 100%;            
+            
+            &:hover{
+                border: 5px solid #0dcaf0be
+            }
+        }
     }
 }

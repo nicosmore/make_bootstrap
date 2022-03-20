@@ -1,4 +1,4 @@
-$fondo_nav_footer: rgba(34, 34, 34, 0.753);
+$fondo_nav_footer: rgba(2, 2, 2, 0.753);
 
 $iconosredes:(
     instagram:rgb(221,42,123),
@@ -18,5 +18,5 @@ $iconosredes:(
     background-color: $bg;        
 }
 .logo_texto{
-    @include estilo(5px, rgba(0, 128, 0, 0.356) )
+    @include estilo(5px, #19875485)
 }

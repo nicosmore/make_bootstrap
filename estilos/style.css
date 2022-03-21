@@ -53,8 +53,8 @@ body {
       border: 5px solid #0dcaf0be; }
 
 footer {
-  align-items: center;
   bottom: 0;
-  margin-top: auto; }
+  margin-top: auto;
+  justify-content: center; }
   footer div a {
     text-decoration: none; }

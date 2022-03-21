@@ -1,9 +1,8 @@
-footer{
-    align-items: center;
+footer{    
     bottom: 0;
     margin-top: auto;
-
     @extend .fondo_texto;
+    justify-content: center;
 
     div{
         

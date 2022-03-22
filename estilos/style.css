@@ -50,7 +50,7 @@ body {
   #galeria div img {
     width: 100%; }
     #galeria div img:hover {
-      border: 5px solid #0dcaf0be; }
+      border: 2px solid #0dcaf0be; }
 
 footer {
   bottom: 0;
